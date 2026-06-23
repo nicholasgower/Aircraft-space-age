@@ -1,5 +1,5 @@
 local TECHPATH = "__Aircraft-space-age__/graphics/technology/"
-flib_data_util=require("__flib__.data-util")
+flib_data_util=require("lib.flib-data-util")
 --Only runs if Space Age is active
 if mods["space-age"] and settings.startup["carbon-fiber-aircraft"].value==true then
   --local drag= {"450kW", "650kW", "2000kW", "850kW" }
