@@ -7,8 +7,7 @@
   "description": "Adds 4 aircraft, each with their benefits and drawbacks, to allow for more biter-killing fun!",
   "factorio_version": "2.1",
   "dependencies": [
-    "base >= 2.1.0",
-    "flib >= 0.15.0",
+    "base >= 2.1.7",
     "? planet-muluna >= 1.9.0",
     "? AircraftRealism >= 2.0.2",
     "? HelicopterRevival >= 0.3.0",
