@@ -24,3 +24,8 @@ docs export-ignore
 *.html export-ignore
 *.ltp export-ignore
 *.css export-ignore
+*.py export-ignore
+*.exe export-ignore
+*.bat export-ignore
+*.ps1 export-ignore
+*.sh export-ignore
