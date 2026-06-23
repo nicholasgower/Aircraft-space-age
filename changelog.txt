@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.3.5
+Date: 2026-06-23
+  Compatibility:
+    - Removed dependency on flib.
+  Changes:
+    - Aircraft no longer play the driving sound of tiles as they fly. https://forums.factorio.com/viewtopic.php?t=133782
+    - Raised required Factorio version to 2.1.
+---------------------------------------------------------------------------------------------------
 Version: 2.3.4
 Date: 2025-10-22
   Changes:
