@@ -156,7 +156,9 @@ local function add_recurrent_params(craft)
     flags = {"icon"},
     size = {40, 40},
     scale = 0.5
+  
   }
+
   --craft.immune_to_tree_impacts = true --craft.immune_to_rock_impacts = true
   --craft.created_smoke = { smoke_name = "smoke" }
   local fuel_multiplier=settings.startup["fuel-consumption-multiplier"].value
@@ -166,7 +168,7 @@ local function add_recurrent_params(craft)
     craft.effectivity=craft.effectivity/fuel_multiplier
   end
   
-  
+  craft.driving_sound_volume_modifier = 0 --In Factorio 2.1, https://forums.factorio.com/viewtopic.php?t=133782
 end
 
 local function resist(type, decrease, percent)
